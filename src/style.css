@@ -1,5 +1,24 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: lightgray;
+    margin: 50px;
+    }
+    
+    .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+   .container {
+    background-color: lightblue;
+   }
+   img {
+    width: 100px;
+    height: 100px;
+   }
